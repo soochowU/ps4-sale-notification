@@ -17,7 +17,7 @@ def notification(title, link):
     line_bot_api.multicast(notify_list, TextSendMessage(text=content))
     return True
 
-line_bot_api = LineBotApi('ACCESS TOKEN')
+line_bot_api = LineBotApi('jFbAGeuXlfvJPho5EA6EpFLSvrutnWqASb5GIh3O/Jd7N4JO4ZR5Ijt4SmzqQu7im4g8b+B+7Dw5GupOH+Pl7VFfAuw4UgK6bWfSnAzCWJtagC+n9GDFQLo+7NgLOvfyIDvE5uOvd915C3/mQ9+IMQdB04t89/1O/w1cDnyilFU=')
 
 driver = webdriver.PhantomJS()
 driver.get('https://www.ptt.cc/bbs/Gamesale/index.html')
